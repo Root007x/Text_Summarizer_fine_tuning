@@ -9,11 +9,11 @@ nltk
 tqdm
 PyYAML
 matplotlib
-torch
 notebook
 fastapi
 uvicorn
 ensure
 Jinja2
 python-box
-
+accelerate
+torch

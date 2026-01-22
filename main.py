@@ -5,6 +5,9 @@ from src.textSummarizer.pipeline.stage_1_data_ingestion_pipeline import (
 from src.textSummarizer.pipeline.stage_2_data_transformation_pipeline import (
     DataTransformationPipeline,
 )
+from src.textSummarizer.pipeline.stage_3_model_trainer_pipeline import (
+    ModelTrainerTrainingPipeline,
+)
 
 # STAGE_NAME = "Data Ingestion Stage"
 
@@ -18,12 +21,24 @@ from src.textSummarizer.pipeline.stage_2_data_transformation_pipeline import (
 #     raise e
 
 
-STAGE_NAME = "Data Transformation Stage"
+# STAGE_NAME = "Data Transformation Stage"
+
+# try:
+#     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+#     data_transformation_pipeline = DataTransformationPipeline()
+#     data_transformation_pipeline.init_data_transformation()
+#     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
+# except Exception as e:
+#     logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+#     raise e
+
+
+STAGE_NAME = "Model Trainer Stage"
 
 try:
     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-    data_transformation_pipeline = DataTransformationPipeline()
-    data_transformation_pipeline.init_data_transformation()
+    model_trainer_pipeline = ModelTrainerTrainingPipeline()
+    model_trainer_pipeline.init_model_trainer()
     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
 except Exception as e:
     logger.exception(f"Error in stage {STAGE_NAME}: {e}")

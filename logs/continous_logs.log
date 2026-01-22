@@ -59,3 +59,34 @@
 [2026-01-22 23:10:47,282: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
 
 
+[2026-01-23 00:52:24,374: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 00:52:24,376: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 00:52:24,377: INFO: common]: created directory at: artifacts
+[2026-01-23 00:52:24,378: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 00:52:27,727: WARNING: file_download]: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2026-01-23 00:56:05,596: WARNING: file_download]: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2026-01-23 00:59:56,361: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 00:59:56,363: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 00:59:56,364: INFO: common]: created directory at: artifacts
+[2026-01-23 00:59:56,365: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 01:01:26,302: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 01:01:26,303: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 01:01:26,304: INFO: common]: created directory at: artifacts
+[2026-01-23 01:01:26,305: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 01:02:21,253: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 01:02:21,254: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 01:02:21,255: INFO: common]: created directory at: artifacts
+[2026-01-23 01:02:21,256: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 01:04:39,275: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 01:04:39,277: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 01:04:39,279: INFO: common]: created directory at: artifacts
+[2026-01-23 01:04:39,279: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 02:22:12,912: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 02:22:12,920: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 02:22:12,923: INFO: common]: created directory at: artifacts
+[2026-01-23 02:22:12,924: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 02:44:47,631: INFO: main]: >>>>>> Stage Model Trainer Stage started <<<<<<
+[2026-01-23 02:44:47,631: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 02:44:47,642: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 02:44:47,642: INFO: common]: created directory at: artifacts
+[2026-01-23 02:44:47,642: INFO: common]: created directory at: artifacts/model_trainer
