@@ -1,1 +1,24 @@
 [2026-01-21 19:29:05,613: INFO: main]: Starting the text summarization process.
+[2026-01-22 21:54:12,269: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 21:54:12,276: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 21:55:37,171: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 21:55:58,769: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 21:55:58,771: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 21:56:49,274: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 21:56:49,284: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 21:59:13,852: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 21:59:13,853: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 22:04:36,709: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 22:04:36,711: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 22:06:26,519: INFO: common]: created directory at: test
+[2026-01-22 22:08:17,009: INFO: common]: created directory at: test
+[2026-01-22 22:08:17,010: INFO: common]: created directory at: boss
+[2026-01-22 22:11:04,800: INFO: common]: created directory at: test
+[2026-01-22 22:11:04,801: INFO: common]: created directory at: boss
+[2026-01-22 22:11:28,998: INFO: common]: created directory at: test
+[2026-01-22 22:11:29,000: INFO: common]: created directory at: boss
+[2026-01-22 22:11:42,886: INFO: common]: created directory at: test
+[2026-01-22 22:12:20,433: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:13:49,874: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:14:20,045: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:14:52,425: INFO: common]: created directory at: artifacts/data_ingestion
