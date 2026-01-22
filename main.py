@@ -13,40 +13,40 @@ from src.textSummarizer.pipeline.stage_4_model_evaluation_pipeline import (
     ModelEvaluationPipeline,
 )
 
-# STAGE_NAME = "Data Ingestion Stage"
+STAGE_NAME = "Data Ingestion Stage"
 
-# try:
-#     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-#     data_ingestion_pipeline = DataIngestionPipeline()
-#     data_ingestion_pipeline.init_data_ingestion()
-#     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
-# except Exception as e:
-#     logger.exception(f"Error in stage {STAGE_NAME}: {e}")
-#     raise e
-
-
-# STAGE_NAME = "Data Transformation Stage"
-
-# try:
-#     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-#     data_transformation_pipeline = DataTransformationPipeline()
-#     data_transformation_pipeline.init_data_transformation()
-#     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
-# except Exception as e:
-#     logger.exception(f"Error in stage {STAGE_NAME}: {e}")
-#     raise e
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+    data_ingestion_pipeline = DataIngestionPipeline()
+    data_ingestion_pipeline.init_data_ingestion()
+    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
+except Exception as e:
+    logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+    raise e
 
 
-# STAGE_NAME = "Model Trainer Stage"
+STAGE_NAME = "Data Transformation Stage"
 
-# try:
-#     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-#     model_trainer_pipeline = ModelTrainerTrainingPipeline()
-#     model_trainer_pipeline.init_model_trainer()
-#     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
-# except Exception as e:
-#     logger.exception(f"Error in stage {STAGE_NAME}: {e}")
-#     raise e
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+    data_transformation_pipeline = DataTransformationPipeline()
+    data_transformation_pipeline.init_data_transformation()
+    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
+except Exception as e:
+    logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+    raise e
+
+
+STAGE_NAME = "Model Trainer Stage"
+
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+    model_trainer_pipeline = ModelTrainerTrainingPipeline()
+    model_trainer_pipeline.init_model_trainer()
+    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
+except Exception as e:
+    logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+    raise e
 
 
 STAGE_NAME = "Model Evaluation Stage"
