@@ -9,6 +9,10 @@ from src.textSummarizer.pipeline.stage_3_model_trainer_pipeline import (
     ModelTrainerTrainingPipeline,
 )
 
+from src.textSummarizer.pipeline.stage_4_model_evaluation_pipeline import (
+    ModelEvaluationPipeline,
+)
+
 # STAGE_NAME = "Data Ingestion Stage"
 
 # try:
@@ -33,12 +37,24 @@ from src.textSummarizer.pipeline.stage_3_model_trainer_pipeline import (
 #     raise e
 
 
-STAGE_NAME = "Model Trainer Stage"
+# STAGE_NAME = "Model Trainer Stage"
+
+# try:
+#     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+#     model_trainer_pipeline = ModelTrainerTrainingPipeline()
+#     model_trainer_pipeline.init_model_trainer()
+#     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
+# except Exception as e:
+#     logger.exception(f"Error in stage {STAGE_NAME}: {e}")
+#     raise e
+
+
+STAGE_NAME = "Model Evaluation Stage"
 
 try:
     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
-    model_trainer_pipeline = ModelTrainerTrainingPipeline()
-    model_trainer_pipeline.init_model_trainer()
+    model_evaluation_pipeline = ModelEvaluationPipeline()
+    model_evaluation_pipeline.init_model_evaluation()
     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\n")
 except Exception as e:
     logger.exception(f"Error in stage {STAGE_NAME}: {e}")

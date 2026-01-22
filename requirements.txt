@@ -17,3 +17,4 @@ Jinja2
 python-box
 accelerate
 torch
+evaluate

@@ -90,3 +90,29 @@
 [2026-01-23 02:44:47,642: INFO: common]: yaml file: params.yaml loaded successfully
 [2026-01-23 02:44:47,642: INFO: common]: created directory at: artifacts
 [2026-01-23 02:44:47,642: INFO: common]: created directory at: artifacts/model_trainer
+[2026-01-23 03:15:37,763: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:15:37,765: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:15:37,766: INFO: common]: created directory at: artifacts
+[2026-01-23 03:15:37,766: INFO: common]: created directory at: artifacts/model_evaluation
+[2026-01-23 03:16:53,232: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:16:53,234: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:16:53,234: INFO: common]: created directory at: artifacts
+[2026-01-23 03:16:53,235: INFO: common]: created directory at: artifacts/model_evaluation
+[2026-01-23 03:18:39,600: INFO: rouge_scorer]: Using default tokenizer.
+[2026-01-23 03:26:07,161: INFO: main]: >>>>>> Stage Model Evaluation Stage started <<<<<<
+[2026-01-23 03:26:07,164: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:26:07,165: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:26:07,165: INFO: common]: created directory at: artifacts
+[2026-01-23 03:26:07,165: INFO: common]: created directory at: artifacts/model_evaluation
+[2026-01-23 03:42:30,257: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:42:30,257: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:42:30,257: INFO: common]: created directory at: artifacts
+[2026-01-23 03:42:30,257: INFO: common]: created directory at: artifacts/model_evaluation
+[2026-01-23 03:43:58,326: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:43:58,331: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:43:58,331: INFO: common]: created directory at: artifacts
+[2026-01-23 03:43:58,331: INFO: common]: created directory at: artifacts/model_evaluation
+[2026-01-23 03:45:58,255: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-23 03:45:58,255: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-23 03:45:58,255: INFO: common]: created directory at: artifacts
+[2026-01-23 03:45:58,259: INFO: common]: created directory at: artifacts/model_evaluation
