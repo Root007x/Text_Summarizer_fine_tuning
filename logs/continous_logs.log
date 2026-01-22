@@ -22,3 +22,28 @@
 [2026-01-22 22:13:49,874: INFO: common]: created directory at: artifacts/data_ingestion
 [2026-01-22 22:14:20,045: INFO: common]: created directory at: artifacts/data_ingestion
 [2026-01-22 22:14:52,425: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:16:36,290: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:16:59,909: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 22:16:59,910: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 22:16:59,911: INFO: common]: created directory at: artifacts
+[2026-01-22 22:16:59,912: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:17:02,166: INFO: 2129099906]: File is Downloaded
+[2026-01-22 22:33:01,119: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-22 22:33:01,120: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 22:33:01,121: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 22:33:01,121: INFO: common]: created directory at: artifacts
+[2026-01-22 22:33:01,121: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:33:53,470: INFO: data_ingestion]: File is Downloaded
+[2026-01-22 22:33:53,562: INFO: stage_1_data_ingestion_pipeline]: Data Ingestion Completed
+[2026-01-22 22:33:53,562: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+
+[2026-01-22 22:35:34,057: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-22 22:35:34,073: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2026-01-22 22:35:34,073: INFO: common]: yaml file: params.yaml loaded successfully
+[2026-01-22 22:35:34,073: INFO: common]: created directory at: artifacts
+[2026-01-22 22:35:34,073: INFO: common]: created directory at: artifacts/data_ingestion
+[2026-01-22 22:35:39,600: INFO: data_ingestion]: File is Downloaded
+[2026-01-22 22:35:39,690: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+
